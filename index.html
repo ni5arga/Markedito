@@ -24,6 +24,10 @@
 		<button onclick="insertText('1. list item')">Ordered List</button>
 		<button onclick="insertText('`code block`')">Code Block</button>
 	</div>
+	<script>
+		document.getElementById('markdown').value = localStorage.getItem('markedito')
+		updatePreview()
+	</script>
 </body>
 
 </html>

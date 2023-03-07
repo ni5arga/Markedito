@@ -1,3 +1,7 @@
+if(!localStorage.getItem('markedito')) {
+    localStorage.setItem('markedito', '# Markedito\n**Welcome to Markedito!**\n## How to edit?\nYou can edit by changing the text on the left!')
+}
+
 function updatePreview() {
     var markdownText = document.getElementById("markdown").value;
     var htmlText = markdownToHtml(markdownText);
@@ -20,4 +24,3 @@ function insertText(text) {
     textarea.focus();
     updatePreview();
 }
-document.onload = () => { updatePreview() }
