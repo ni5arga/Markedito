@@ -1,65 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Markedito</title>
-	<style>
-h1 {
-  text-align: center;
-}
-
-.editor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.editor textarea {
-  width: 80%;
-  margin-top: 10px;
-}
-
-.formatting-buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.formatting-buttons button {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  color: #333;
-  cursor: pointer;
-  font-size: 14px;
-  margin: 5px;
-  padding: 8px 12px;
-  transition: all 0.2s ease-in-out;
-}
-
-.formatting-buttons button:hover {
-  background-color: #f1f1f1;
-}
-</style>
+	<link rel="stylesheet" href="style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.1.0/markdown-it.min.js"></script>
-	<script>
-		function updatePreview() {
-			var markdownText = document.getElementById("markdown").value;
-			var htmlText = markdownToHtml(markdownText);
-			document.getElementById("preview").innerHTML = htmlText;
-		}
-
-		function markdownToHtml(markdownText) {
-			var md = window.markdownit();
-			return md.render(markdownText);
-		}
-	</script>
+	<script src="app.js"></script>
 </head>
+
 <body>
 	<h1> 📝 Markedito </h1>
-	<div class="editor">
-		<textarea id="markdown" rows="10" cols="80" oninput="updatePreview()"></textarea>
+	<div class="center">
+		<textarea class="editor" id="markdown" rows="10" cols="80" oninput="updatePreview()"></textarea>
 		<div id="preview"></div>
 	</div>
 	<div class="formatting-buttons">
@@ -72,18 +24,6 @@ h1 {
 		<button onclick="insertText('1. list item')">Ordered List</button>
 		<button onclick="insertText('`code block`')">Code Block</button>
 	</div>
-	<script>
-		function insertText(text) {
-			var textarea = document.getElementById("markdown");
-			var start = textarea.selectionStart;
-			var end = textarea.selectionEnd;
-			var before = textarea.value.substring(0, start);
-			var after  = textarea.value.substring(end);
-			textarea.value = before + text + after;
-			textarea.selectionStart = textarea.selectionEnd = start + text.length;
-			textarea.focus();
-			updatePreview();
-		}
-	</script>
 </body>
+
 </html>
