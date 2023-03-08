@@ -5,8 +5,8 @@ MarkEdito is a simple Markdown editor built with HTML, CSS, and JavaScript. The 
 - **Bold** - Allows you to format text as bold.
 - *Italic* - Allows you to format text as italic.
 - ### Headings - Allows you to add headings to your document.
-- [Links](https://www.google.com) - Allows you to add hyperlinks to your document.
-- ![Images](https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) - Allows you to add images to your document.
+- [Links](https://www.github.com/ni5arga/markedito) - Allows you to add hyperlinks to your document.
+- Images - Allows you to add images to your document.
 - **Unordered List** - Allows you to create an unordered list.
 - 1. Ordered List - Allows you to create an ordered list.
 - `Code Block` - Allows you to add code blocks to your document.
@@ -29,3 +29,7 @@ We welcome contributions from the community! If you would like to contribute to 
 ## License
 
 MarkEdito is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+--
+
+⭐ Don't forget to star the repository to show some 💖
