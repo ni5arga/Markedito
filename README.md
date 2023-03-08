@@ -22,6 +22,7 @@ To use MarkEdito, simply download the source code from our GitHub repository and
 ## Self-Hosting
 This can be self hosted pretty easily. Simply fork this repo and enable GitHub pages to host this editor through GitHub pages. This can also be deployed through [Vercel](https://vercel.com) and [Netlify](https://netlify.com) too! 
 <p> </p>
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fni5arga%2FMarkedito)
 
 ## Contributing
