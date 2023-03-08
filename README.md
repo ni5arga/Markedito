@@ -30,6 +30,4 @@ We welcome contributions from the community! If you would like to contribute to 
 
 MarkEdito is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
---
-
 ⭐ Don't forget to star the repository to show some 💖
