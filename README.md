@@ -6,7 +6,7 @@ MarkEdito is a simple Markdown editor built with HTML, CSS, and JavaScript. The 
 - *Italic* - Allows you to format text as italic.
 - ### Headings - Allows you to add headings to your document.
 - [Links](https://www.google.com) - Allows you to add hyperlinks to your document.
-- ![Images](https://unsplash.com/photos/4Z6iVpXlJ0o) - Allows you to add images to your document.
+- ![Images](https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) - Allows you to add images to your document.
 - **Unordered List** - Allows you to create an unordered list.
 - 1. Ordered List - Allows you to create an ordered list.
 - `Code Block` - Allows you to add code blocks to your document.
